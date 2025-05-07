@@ -101,15 +101,14 @@ aside {
   border: 1px solid black;
   grid-area: aside;
   height: 650px;
-  /* width: 60%; */
   display: flex;
   flex-direction: column;
   background-color: #1c1c1d;
   padding: 10px;
-  gap: 12px;
   overflow-x: hidden;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
+
 .flex-list {
   display: flex;
   align-items: center;
@@ -133,7 +132,6 @@ aside {
 
 main {
   background-color: #1c1c1d;
-  border: 1px solid black;
   grid-area: main;
   height: 650px;
   width: 100%;
@@ -198,8 +196,66 @@ main {
   background-color: #3b3d3e;
 }
 
+/* Section-Started */
 section {
+  background-color: #1c1c1d;
   grid-area: section;
   width: 100%;
-  border: 1px solid black;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.flex-1-section {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  gap: 17px;
+}
+.heading-contact {
+  width: 262px;
+  color: #aaadb2;
+}
+.serch-svg-box {
+  padding: 6px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+}
+.serch-svg-box:hover{
+  background-color: #4F5152;
+}
+.option-box{
+  padding: 6px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+}
+.option-box:hover{
+  background-color:#4F5152 ;
+}
+.flex-1-section svg {
+  fill: #aaadb2;
+}
+.flex-Column-freinds{
+  display: flex;
+  flex-direction: column;
+ 
+}
+.friend-list{
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 7px;
+  border-radius: 10px;
+}
+.friend-image img{
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+.friend-list h5{
+  font-family: sans-serif;
+  color: white;
 }
