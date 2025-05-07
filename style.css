@@ -18,7 +18,6 @@ body {
 }
 
 header {
-  /* width: 100%; */
   background-color: #252728;
   grid-area: header;
   height: 65px;
@@ -124,6 +123,10 @@ aside {
   width: 35px;
   border-radius: 50%;
 }
+.first-image i {
+  height: ;
+  width: ;
+}
 .flex-list h5 {
   font-family: sans-serif;
   color: white;
@@ -133,17 +136,12 @@ main {
   border: 1px solid black;
   grid-area: main;
   height: 500px;
-
+  display: grid;
   width: 100%;
 }
-/* .right {
-        border: 1px solid black;
-    width: 100%;
-        grid-area: right;
-    } */
 
 section {
   grid-area: section;
-width: 100%;
+  width: 100%;
   border: 1px solid black;
 }
