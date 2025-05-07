@@ -1,0 +1,19 @@
+
+
+
+.Container{
+    display: grid;
+    grid-template-areas: "header header header"
+    "aside main main";
+}
+
+header{
+grid-area: header;
+
+}
+aside{
+    grid-area: aside;
+}
+main{
+    grid-area: main;
+}
