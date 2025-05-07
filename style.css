@@ -92,7 +92,7 @@ fill: #E2E5E9;
 aside {
     border: 1px solid black;
     grid-area: aside;
-    height: 500px;
+    height: 100vh   ;
     width: 60%;
     display: flex;
     flex-direction: column;
