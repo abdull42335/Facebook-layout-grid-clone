@@ -185,7 +185,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
- 
+
   gap: 7px;
   padding: 6px 10px;
   border-radius: 8px;
@@ -194,8 +194,8 @@ main {
   color: #b8bbbf;
   font-size: 13px;
 }
-.one:hover{
-  background-color:#3B3D3E;
+.one:hover {
+  background-color: #3b3d3e;
 }
 
 section {
