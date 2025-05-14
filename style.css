@@ -355,6 +355,7 @@ section {
     display: none;
   }
   main {
+    overflow: visible;
     height: 100vh;
   }
   aside {
